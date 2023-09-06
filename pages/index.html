@@ -1,16 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../dist/output.css" />
     <title>Document</title>
+  </head>
+  <body>
+    <div class="main-content max-w-md relative h-full m-auto">
+      <!-- main-content start -->
+      <div class="m-auto h-screen bg-pwa-yellow-bg-100 overflow-auto scrollbar-none">
+        <!-- user account name -->
+        <div class="flex place-items-center bg-pwa-yellow-bg-50 p-4 px-5">
+          <div
+            class="flex h-8 w-8 flex-none place-content-center place-items-center rounded-full bg-pwa-orange"
+          >
+            <span class="text-center text-sm font-semibold uppercase text-white"
+              >op</span
+            >
+          </div>
+          <div class="flex-1">
+            <h1 class="text-center text-base font-semibold text-black">
+              Smart Account Name
+            </h1>
+          </div>
+          <div class="flex-none">
+            <!-- <button class="w-5 h-5"><i class="icon-edit-line text-lg text-black"></i></button> -->
+            <button class="h-5 w-5">
+              <img src="../src/images/edit.svg" alt="" />
+            </button>
+          </div>
+        </div>
+        <!-- token number -->
+        <div class="bg-white px-4 py-2.5">
+          <p class="line-clamp-1 text-center text-sm font-normal text-black">
+            0x1f9090aaE28b8a3dCeaDf281B0F12828e676c326
+          </p>
+        </div>
+        <!--  -->
+        <div class="card-section pt-7 pb-40">
+          <div class="grid gap-3 px-4">
+            <!-- card 1 -->
+            <button>
+              <div class="rounded-3xl bg-white/[.89] px-8 pb-5 shadow-paw-sm">
+                <p
+                  class="py-1 text-right text-sm font-medium tracking-wider text-pwa-gray-text-100/50"
+                >
+                  31m ago
+                </p>
+                <div class="flex place-items-center gap-5">
+                  <div class="w-6 flex-none">
+                    <img src="../src/images/NFT.svg" alt="" />
+                  </div>
+                  <div class="flex-1">
+                    <h2
+                      class="line-clamp-1 text-left text-base font-semibold text-dark"
+                    >
+                      @NFT_Trader Just bought a Doodle!
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </button>
+            <!-- card 2 -->
+            <button>
+              <div class="rounded-3xl bg-white/[.89] px-8 pb-5 shadow-paw-sm">
+                <p
+                  class="py-1 text-right text-sm font-normal tracking-wider text-pwa-gray-text-100/50"
+                >
+                  1h 30m ago
+                </p>
+                <div class="flex place-items-center gap-5">
+                  <div class="w-6 flex-none">
+                    <img src="../src/images/ETH.svg" alt="" />
+                  </div>
+                  <div class="flex-1">
+                    <h2
+                      class="line-clamp-1 text-left text-base font-semibold text-dark"
+                    >
+                      You traded $USDC for $COLLAB
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </button>
+            <!-- card 3 -->
+            <button>
+              <div class="rounded-3xl bg-white/[.89] px-8 pb-5 shadow-paw-sm">
+                <p
+                  class="py-1 text-right text-sm font-normal tracking-wider text-pwa-gray-text-100/50"
+                >
+                  Yesterday 11:30pm
+                </p>
+                <div class="flex place-items-center gap-5">
+                  <div class="w-6 flex-none">
+                    <img src="../src/images/touch-ID.svg" alt="" />
+                  </div>
+                  <div class="flex-1">
+                    <h2
+                      class="line-clamp-1 text-left text-base font-semibold text-dark"
+                    >
+                      You authenticated your account
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </button>
+            <!-- card 4 -->
+            <button>
+              <div class="rounded-3xl bg-white/[.89] px-8 pb-5 shadow-paw-sm">
+                <p
+                  class="py-1 text-right text-sm font-normal tracking-wider text-pwa-gray-text-100/50"
+                >
+                  Yesterday 9:13pm
+                </p>
+                <div class="flex place-items-center gap-5">
+                  <div class="w-6 flex-none">
+                    <img src="../src/images/ETH.svg" alt="" />
+                  </div>
+                  <div class="flex-1">
+                    <h2
+                      class="line-clamp-1 text-left text-base font-semibold text-dark"
+                    >
+                      @yourfriend sent you a tip!
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- footer tab button -->
+      <div class="footer-tab-section">
+          <div class="footer-inner">
+              <div class="flex-none">
+                <button>
+                  <img
+                    src="../src/images/marketplace.svg"
+                    alt=""
+                    class="m-auto"
+                  />
+                  <p class="text-black text-xs font-bold tracking-widest">
+                    Marketplace
+                  </p>
+                </button>
+              </div>
+              <div class="flex-none">
+                <img src="../src/images/mask-group.svg" alt="" />
+              </div>
+              <div class="flex-none">
+                <button>
+                  <img src="../src/images/quests.svg" alt="" class="m-auto" />
+                  <p class="text-black text-xs font-bold tracking-widest">
+                    Marketplace
+                  </p>
+                </button>
+              </div>
 
-</head>
-<body>
-   <div class="text-red-600">
-    <h1> test </h1>
-   </div>
-</body>
+          </div>
+
+      </div>
+      <!-- main-content end -->
+    </div>
+  </body>
 </html>
